@@ -22,5 +22,15 @@
             </div>
         </div>
 
+        <script src="uvscript.js"></script>
+        <script>
+            const urlParams=new URLSearchParams(window.location.search);
+            const uvIndex= urlParams.get('uvIndex');
+            const suggestedSpf= urlParams.get('suggestedSpf');
+
+            document.getElementById('uvIndexBox').innerText= uvIndex;
+            docuemnt.getElementById('spfBox').innerText= suggestedSpf;
+        </script>
+
     </body>
 </html>

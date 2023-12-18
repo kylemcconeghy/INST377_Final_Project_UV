@@ -14,11 +14,16 @@
 
         <div class="enterloc">
             <h2>Enter your locations logitude and latitude for the most accurate reading</h2>
-            <label for="latitude">Latitude</label>
-            <input type="text" id="latitude" name="latitude">
-            <label for="longitude">Longitude</label>
-            <input type="text" id="longitude" name="longitude">
+            <form id="uvForm" onsubmit="submitForm(event)">
+                <label for="latitude">Latitude</label>
+                <input type="text" id="latitude" name="latitude" required>
+                <label for="longitude">Longitude</label>
+                <input type="text" id="longitude" name="longitude" required>
+                <button type="submit">Submit</button>
+            </form>
+            
         </div>
+        <script src= "uvscript.js"></script>
     </body>
 
 </html>
