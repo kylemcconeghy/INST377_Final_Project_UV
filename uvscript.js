@@ -32,14 +32,14 @@ async function submitForm(event) {
 
 function determineSuggestedSpf(uvIndex){
     if (uvIndex >= 0 && uvIndex <= 2){
-        return 'Low';
-    } else if (uvIndex <=5){
-        return 'Moderate';
-    } else if (uvIndex <= 7){
-        return 'High';
-    } else if (uvIndex <= 10){
-        return 'Very High';
+        return 'Low UV - SPF 15';
+    } else if (uvIndex > 2 && uvIndex <= 4){
+        return 'Moderate UV - SPF 30';
+    } else if (uvIndex > 4 && uvIndex <= 6){
+        return 'High UV - SPF 30+';
+    } else if (uvIndex > 6 && uvIndex <= 10){
+        return 'Very High UV- SPF 50';
     } else {
-        return 'Extreme Index';
+        return 'Extreme UV - SPF 50+';
     }
 }
