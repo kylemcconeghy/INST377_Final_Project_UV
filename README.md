@@ -4,6 +4,12 @@ Project TItle: UV Index by Location
 
 Group Members: Kyle McConeghy and Jeffrey Gomes
 
+Link to our original GitHub repository with all of our collaborators and changes since the start
+Had to copy and add files manually as we started our porject in a seperate repository
+
+https://github.com/kylemcconeghy/INST377_Final_Project_UV.git
+
+
 Project Description: 
 Many people downplay the harmful effects of the sun. In addition, many people forget that the easiest way to protect yourself against the sun is to put on some sunscreen or even some lotion with SPF in it. Our application aims to help protect you against many of the harmful affects that the sun can have on our skin from sunburn to skin cancer. What we hope to accomplish it to spread awareness, as well as spark peoples attention to taking care of themselves and their skin for the future.
 
@@ -17,3 +23,4 @@ User Manual:
 Developer Manual:
 
 [a relative link] (docs/dev_manual.md)
+
