@@ -5,7 +5,7 @@ Project TItle: UV Index by Location
 Group Members: Kyle McConeghy and Jeffrey Gomes
 
 Link to our original GitHub repository with all of our collaborators and changes since the start
-Had to copy and add files manually as we zccidentally started and did most of our work in a seperate repository
+Had to copy and add files manually as we accidentally started and did most of our work in a seperate repository
 
 https://github.com/kylemcconeghy/INST377_Final_Project_UV.git
 
