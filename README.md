@@ -11,7 +11,9 @@ Target Browsers:
 We want to Target users on iOS and Android devices to reach as many people as possible
 
 User Manual:
-docs/user_manual.md
+
+[a relative link] (docs/user_manual.md)
 
 Developer Manual:
-docs/dev_manual.md
+
+[a relative link] (docs/dev_manual.md)
